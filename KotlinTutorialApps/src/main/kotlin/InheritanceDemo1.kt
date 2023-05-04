@@ -1,11 +1,9 @@
 
 fun main(){
-    var a = InheritanceDemo1()
+    val a = InheritanceDemo1()
     a.think()
     a.talking()
-
 }
-
 class InheritanceDemo1 : ABC()  //inheritance using Default constructor
 {
     fun talking(){
