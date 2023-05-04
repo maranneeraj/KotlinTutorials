@@ -1,8 +1,8 @@
 fun main() {
-    val obj = outer().Inner()
+    val obj = Outers().Inner()
     print(obj.foo())
 }
-class outer{
+class Outers{
     private val welcomeMessege = "Welcome to inner outer program"
     inner class Inner{
         fun foo() = welcomeMessege
