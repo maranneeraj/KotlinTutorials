@@ -20,5 +20,5 @@ class Address {
 fun main() {
 val address = Address()
     address.copyAddress(address)
-    print(address.copyAddress())
+
 }

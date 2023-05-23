@@ -1,4 +1,4 @@
-class persons ( val _name : String , val _age : Int = 26)  //constructor with default value of age
+class persons ( val _name : String , val _age : Int = 26)  //constructor with default value of age primary constructor
 {
     var name: String
     var age: Int
