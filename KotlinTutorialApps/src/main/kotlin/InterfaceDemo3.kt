@@ -16,8 +16,8 @@ abstract class Shapes : Dragables {
     abstract fun area() : Double
 
 }
-class Circles(val radius : Double) : Shapes() {
-    override fun area(): Double = Math.PI*radius*radius
+class Circles(val radius : Double) : Dragables {
+    fun area(): Double = Math.PI*radius*radius
 
     override fun drag() = println("Circle is dragging")
 
